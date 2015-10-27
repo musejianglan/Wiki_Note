@@ -1,0 +1,29 @@
+1.webview使用完成后要destroy
+final ViewGroup viewGroup = (ViewGroup) mWebPrint.getParent();
+        if (viewGroup != null){
+          viewGroup.removeView(mWebPrint);
+        }
+        mWebPrint.removeAllViews();
+        mWebPrint.destroy();
+
+
+2.获取可见屏幕高度
+Rect outRect = new Rect();  
+this.getWindow().getDecorView().getWindowVisibleDisplayFrame(outRect); 
+int screenHeight = outRect.height();
+http://blog.csdn.net/xinhai657/article/details/16863679
+
+
+3.rgba 和IE下filter数值的转换
+rgba 透明值	IEfilter值
+0.1	19
+0.2	33
+0.3	4C
+0.4	66
+0.5	7F
+0.6	99
+0.7	B2
+0.8	C8
+0.9	E5
+直接取整计算的，没有进位直接舍去 
+alpha*255再转换成16进制即可

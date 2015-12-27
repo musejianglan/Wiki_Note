@@ -17,13 +17,17 @@ http://blog.csdn.net/xinhai657/article/details/16863679
 3.rgba 和IE下filter数值的转换
 rgba 透明值	IEfilter值
 0.1	19
+0.12    1f
 0.2	33
+0.26    42
 0.3	4C
 0.4	66
 0.5	7F
+0.54    8a
 0.6	99
 0.7	B2
 0.8	C8
+0.87    de
 0.9	E5
 直接取整计算的，没有进位直接舍去 
 alpha*255再转换成16进制即可

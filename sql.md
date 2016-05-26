@@ -19,6 +19,11 @@
    varchar(size)| 容纳可变长度的字符串（可容纳字母、数字以及特殊的字符）。在括号中规定字符串的最大长度。
   date(yyyymmdd) | 容纳日期
 
+### 约束
+- NOT NULL 约束强制列不接受 NULL 值。NOT NULL 约束强制字段始终包含值。这意味着，如果不向字段添加值，就无法插入新记录或者更新记录。
+- PRIMARY KEY 约束唯一标识数据库表中的每条记录。主键必须包含唯一的值。主键列不能包含 NULL 值。每个表都应该有一个主键，并且每个表只能有一个主键。
+- FOREIGN KEY
+- DEFAULT 用于向列中插入默认值。如果没有规定其他的值，那么会将默认值添加到所有的新记录。
 
 ## INSERT INTO 增
 > INSERT INTO 表名称 VALUES (值1, 值2,....)
@@ -40,6 +45,13 @@ DELETE FROM table_name 或 DELETE * FROM table_name
 ```
 UPDATE Person SET Address = 'Zhongshan 23', City = 'Nanjing' WHERE LastName = 'Wilson'
 ```
+
+## ALTER TABLE
+> ALTER TABLE 语句用于在已有的表中添加、修改或删除列。
+- 添加列:              ALTER TABLE table_name ADD column_name datatype
+- 删除表中的列：        ALTER TABLE table_name DROP COLUMN column_name。注释：某些数据库系统不允许这种在数据库表中删除列的方式 (DROP COLUMN column_name)。
+- 改变表中列的数据类型：ALTER TABLE table_name ALTER COLUMN column_name datatype
+
 
 ## 查询
 
@@ -124,4 +136,20 @@ _ | 仅替代一个字符
 
 #### BETWEEN
 > 操作符 BETWEEN ... AND 会选取介于两个值之间的数据范围。这些值可以是数值、文本或者日期。
+
+## 函数
+### date 函数
+MySQL 中最重要的内建日期函数：
+函数 | 描述
+---- |------
+NOW()|返回当前的日期和时间
+CURDATE()|返回当前的日期
+CURTIME()|返回当前的时间
+DATE()|提取日期或日期/时间表达式的日期部分
+EXTRACT()|返回日期/时间按的单独部分
+DATE_ADD()|给日期添加指定的时间间隔
+DATE_SUB()|从日期减去指定的时间间隔
+DATEDIFF()|返回两个日期之间的天数
+DATE_FORMAT()|用不同的格式显示日期/时间
+
 

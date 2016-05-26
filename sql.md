@@ -1,6 +1,7 @@
 ##  CREATE 创建
 ### CREATE DATABASE my_db 创建数据库
 > CREATE DATABASE database_name
+
 ### CREATE TABLE 语句
 > CREATE TABLE 表名称
   (
@@ -9,6 +10,21 @@
   列名称3 数据类型,
   ....
   )
+
+  数据类型  |  描述
+  --------- | -------------
+  integer(size)
+  int(size)
+  smallint(size)
+  tinyint(size)| 仅容纳整数。在括号内规定数字的最大位数。
+  decimal(size,d)
+  numeric(size,d) | 容纳带有小数的数字。
+                    "size" 规定数字的最大位数。"d" 规定小数点右侧的最大位数。
+  char(size)|容纳固定长度的字符串（可容纳字母、数字以及特殊字符）。
+在括号中规定字符串的长度。
+   varchar(size)| 容纳可变长度的字符串（可容纳字母、数字以及特殊的字符）。
+在括号中规定字符串的最大长度。
+  date(yyyymmdd) | 容纳日期
 
 
 ## INSERT INTO 增

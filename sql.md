@@ -1,3 +1,16 @@
+##  CREATE 创建
+### CREATE DATABASE my_db 创建数据库
+> CREATE DATABASE database_name
+### CREATE TABLE 语句
+> CREATE TABLE 表名称
+  (
+  列名称1 数据类型,
+  列名称2 数据类型,
+  列名称3 数据类型,
+  ....
+  )
+
+
 ## INSERT INTO 增
 > INSERT INTO 表名称 VALUES (值1, 值2,....)
 INSERT INTO table_name (列1, 列2,...) VALUES (值1, 值2,....) 指定所要插入数据的列
@@ -76,7 +89,9 @@ and ArchiveItem.code IN('AI-00000079','AI-00000080','AI-00000081','AI-00000082')
 - SQL COUNT(DISTINCT column_name)
 语法： SQL COUNT(DISTINCT column_name) 语法
 
-## Like 操作符
+## 操作符
+
+#### Like
 > LIKE 操作符用于在 WHERE 子句中搜索列中的指定模式。
 % 定义通配符
 - 以N开头 列 LIKE 'N%'
@@ -84,13 +99,20 @@ and ArchiveItem.code IN('AI-00000079','AI-00000080','AI-00000081','AI-00000082')
 - 包含NN 列 LIKE '%NN%'
 - 不包含NN 列 NOT LIKE '%NN%'
 
-### 通配符
+#### 通配符
 在搜索数据库中的数据时，SQL 通配符可以替代一个或多个字符。
 SQL 通配符必须与 LIKE 运算符一起使用。
 
-统配符 | 描述
+通配符 | 描述
 -------| ------
 % | 替代一个或多个字符
 _ | 仅替代一个字符
 [charlist] | 字符列中的任何单一字符
 [^charlist] 或 [!charlist] | 不在字符列中的任何单一字符
+
+#### IN
+> IN 操作符允许我们在 WHERE 子句中规定多个值。
+
+#### BETWEEN
+> 操作符 BETWEEN ... AND 会选取介于两个值之间的数据范围。这些值可以是数值、文本或者日期。
+

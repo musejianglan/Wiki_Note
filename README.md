@@ -18,4 +18,5 @@ private note
 [listview](https://github.com/musejianglan/Wiki_Note/wiki/ListView)<br/>
 [ormlite-待续](https://github.com/musejianglan/Wiki_Note/wiki/ormLite)<br/>
 [refresh合集](https://github.com/musejianglan/Wiki_Note/wiki/refresh)<br/>
+[sql语句](https://github.com/musejianglan/Wiki_Note/wiki/sql)<br/>
 [第三方判断微信是否安装](https://github.com/musejianglan/Wiki_Note/wiki/%E5%88%A4%E6%96%AD%E5%BE%AE%E4%BF%A1%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85)<br/>

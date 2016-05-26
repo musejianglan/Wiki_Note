@@ -6,6 +6,7 @@ private note
 ## 目录  
 
 [Android-N](https://github.com/musejianglan/Wiki_Note/wiki/Android-N)<br/>
+[AS-Plugins](https://github.com/musejianglan/Wiki_Note/wiki/AS-Plugins)<br/>
 [反编译](https://github.com/musejianglan/Wiki_Note/wiki/android-%E5%8F%8D%E7%BC%96%E8%AF%91)<br/>
 [android 网络请求详解](https://github.com/musejianglan/Wiki_Note/wiki/Android-%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82%E8%AF%A6%E8%A7%A3)<br/>
 [android开发经验](https://github.com/musejianglan/Wiki_Note/wiki/Android%E5%BC%80%E5%8F%9160%E6%9D%A1%E6%8A%80%E6%9C%AF%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93)<br/>

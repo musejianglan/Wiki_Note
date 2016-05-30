@@ -5,6 +5,9 @@
 第二步，使用命令git commit，完成。  
 要随时掌握工作区的状态，使用git status命令。  
 如果git status告诉你有文件被修改过，用git diff可以查看修改内容。
+HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令git reset --hard commit_id。  
+穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。  
+要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。
 
 ## 基本命令
 
@@ -62,3 +65,10 @@ git log 命令可以查看所有产生的 commit 记录
 
 #### git diff  
 顾名思义就是查看difference，显示的格式正是Unix通用的diff格式。
+
+#### git reset  
+git reset --hard HEAD^：首先，Git必须知道当前版本是哪个版本，在Git中，用HEAD表示当前版本，也就是最新的提交3628164...882e1e0），上一个版本就是HEAD^，上上一个版本就是HEAD^^，当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。  
+找到最新commit id是3628164...，于是就可以指定回到未来的某个版本：
+`git reset --hard 3628164`版本号没必要写全，前几位就可以了，Git会自动去找。当然也不能只写前一两位，因为Git可能会找到多个版本号。  
+#### git reflog  
+用来记录你的每一次命令

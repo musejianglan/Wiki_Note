@@ -85,4 +85,8 @@ git reset --hard HEAD^：首先，Git必须知道当前版本是哪个版本，�
 可以把暂存区的修改撤销掉（unstage），重新放回工作区,然后git checkout -- <file>；
 
 
+## 远程库（github为例）
 
+1. 创建SSH Key。在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开Shell（Windows下打开Git Bash），创建SSH Key：
+`ssh-keygen -t rsa -C "musejianglan@163.com"`
+2.登陆GitHub，打开“Account settings”，“SSH Keys”页面：然后，点“Add SSH Key”，填上任意Title，在Key文本框里粘贴id_rsa.pub文件的内容：

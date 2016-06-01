@@ -1,0 +1,37 @@
+Java基本语法、面向对象相关的基本概念与思想<br/>
+常用String类的api<br/>
+异常处理<br/>
+IO基础<br/>
+容器<br/>
+多线程<br/>
+内存管理与垃圾回收<br/>
+知道并最好知道几种常见的 Java 设计模式<br/>
+
+Android基础UI控件的熟练掌握<br/>
+(Button、TextView、EditText、CheckBox、RadioButton、ImageView、Spinner、ProgressBar、SeekBar、ListView、RecycleView、ScrollView)
+
+Activity的生命周期」<br/>
+Activity的四种启动模式<br/>
+Fragment的生命周期<br/>
+Fragment与Activity之间的关系<br/>
+BroadcastReceiver<br/>
+ContentProvider<br/>
+Service的使用场景与具体用法<br/>
+BroadcastReceiver 的广播类型与不同的注册方式的区别<br/>
+
+动画相关也是必须掌握的，不管是矢量动画还是属性动画的api都应该熟练，一些简单的动画应该随手就能写出来才行。<br/>
+
+自定义View<br/>
+
+Sqlite与SQL语句<br/>
+
+常见的数据格式与解析方法得了解吧，虽然目前常用的数据格式就是json，解析库也有很多，如Gson、Jackson、Fastjson等。<br/>
+
+网络编程相关的基础知识要掌握，如http协议相关<br/>
+如http method<br/>
+status code<br/>
+request & response<br/>
+http cache<br/>
+request header<br/>
+params<br/>
+试着用 HttpUrlConnection 封装一个网络库<br/>

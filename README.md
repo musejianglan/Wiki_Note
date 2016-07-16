@@ -21,3 +21,4 @@ private note
 [sql语句](https://github.com/musejianglan/Wiki_Note/wiki/sql)<br/>
 [第三方判断微信是否安装](https://github.com/musejianglan/Wiki_Note/wiki/%E5%88%A4%E6%96%AD%E5%BE%AE%E4%BF%A1%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85)<br/>
 [dependencies](https://github.com/musejianglan/Wiki_Note/wiki/android-dependencies%E6%95%B4%E7%90%86)<br/>
+[Material Design 风格配色](https://github.com/musejianglan/Wiki_Note/wiki/Material-Design-%E9%A3%8E%E6%A0%BC%E9%85%8D%E8%89%B2)

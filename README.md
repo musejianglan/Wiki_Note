@@ -26,7 +26,7 @@ private note
 [将数据库从asserts中拷贝到应用data/data/包路径/databases/中](https://github.com/musejianglan/Wiki_Note/wiki/%E5%B0%86%E6%95%B0%E6%8D%AE%E5%BA%93%E4%BB%8Easserts%E4%B8%AD%E6%8B%B7%E8%B4%9D%E5%88%B0%E5%BA%94%E7%94%A8data-data-%E5%8C%85%E8%B7%AF%E5%BE%84-databases-%E4%B8%AD)<br/>
 [Android设备信息采集](https://github.com/musejianglan/Wiki_Note/wiki/Android%E8%AE%BE%E5%A4%87%E4%BF%A1%E6%81%AF%E9%87%87%E9%9B%86)<br/>
 [git笔记](https://github.com/musejianglan/Wiki_Note/blob/master/git.md)<br/>
-<br/>
+[android studio setting](https://github.com/musejianglan/Wiki_Note/wiki/android-studio-setting)<br/>
 <br/>
 <br/>
 <br/>

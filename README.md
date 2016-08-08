@@ -27,7 +27,7 @@ private note
 [Android设备信息采集](https://github.com/musejianglan/Wiki_Note/wiki/Android%E8%AE%BE%E5%A4%87%E4%BF%A1%E6%81%AF%E9%87%87%E9%9B%86)<br/>
 [git笔记](https://github.com/musejianglan/Wiki_Note/blob/master/git.md)<br/>
 [android studio setting](https://github.com/musejianglan/Wiki_Note/wiki/android-studio-setting)<br/>
-[android 改变dialog位置及大小](https://github.com/musejianglan/Wiki_Note/wiki/android-dialog)<br/>
+[android dialog](https://github.com/musejianglan/Wiki_Note/wiki/android-dialog)<br/>
 <br/>
 <br/>
 <br/>

@@ -10,4 +10,5 @@
 
 [使用Kotlin开发Android的准备](https://github.com/musejianglan/Wiki_Note/blob/master/Kotlin4Android/Android/A_prepare.md)
 
+[Android常用控件](https://github.com/musejianglan/Wiki_Note/blob/master/Kotlin4Android/Android/Android常用控件.md)
 

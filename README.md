@@ -7,6 +7,8 @@ private note
 
 [Kotlin](https://github.com/musejianglan/Wiki_Note/blob/master/Kotlin.md)
 ---
+[Design pattern 设计模式](https://github.com/musejianglan/Wiki_Note/blob/master/Design_pattern/Java设计模式.md)
+---
 
 
 [Android-N](https://github.com/musejianglan/Wiki_Note/wiki/Android-N)<br/>
@@ -32,7 +34,6 @@ private note
 [git笔记](https://github.com/musejianglan/Wiki_Note/blob/master/git.md)<br/>
 [android studio setting](https://github.com/musejianglan/Wiki_Note/wiki/android-studio-setting)<br/>
 [android dialog](https://github.com/musejianglan/Wiki_Note/wiki/android-dialog)<br/>
-[Java设计模式](https://github.com/musejianglan/Wiki_Note/blob/master/Design_pattern/Java设计模式.md)<br/>
 [性能优化](http://blog.tingyun.com/web/article/detail/155#)<br/>
 <br/>
 <br/>

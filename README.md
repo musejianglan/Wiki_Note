@@ -32,7 +32,7 @@ private note
 [git笔记](https://github.com/musejianglan/Wiki_Note/blob/master/git.md)<br/>
 [android studio setting](https://github.com/musejianglan/Wiki_Note/wiki/android-studio-setting)<br/>
 [android dialog](https://github.com/musejianglan/Wiki_Note/wiki/android-dialog)<br/>
-[Java设计模式](https://github.com/musejianglan/Wiki_Note/blob/master/Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F)<br/>
+[Java设计模式](https://github.com/musejianglan/Wiki_Note/blob/master/Design_pattern/Java设计模式.md)<br/>
 [性能优化](http://blog.tingyun.com/web/article/detail/155#)<br/>
 <br/>
 <br/>

@@ -12,7 +12,7 @@
 * J2EE 模式-->对象合起来要干嘛（表现层,文中表示层个人感觉用的不准确）java是面向对象的语言,所以要搞好对象,模式（套路）就是用来更加好的搞对象滴。
 
 
-![设计模式](/img/the-relationship-between-design-patterns.jpg)
+![设计模式](https://raw.githubusercontent.com/musejianglan/Wiki_Note/master/Design_pattern/img/the-relationship-between-design-patterns.jpg)
 
 ### 设计模式的6大原则
 ##### 1、开闭原则（Open Close Principle）

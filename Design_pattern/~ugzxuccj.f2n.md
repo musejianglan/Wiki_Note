@@ -175,8 +175,7 @@ Public class People{
 
 1. 单例模式　
 [单例模式](https://github.com/musejianglan/Wiki_Note/blob/master/Design_pattern/singleton（单例模式）.md)
-2. 工厂方法模式
-[工厂方法模式](https://github.com/musejianglan/Wiki_Note/blob/master/Design_pattern/FactoryMethod(工厂模式).md)　　
+2. 工厂方法模式　
 3. 抽象工厂模式　
 4. 模版方法模式
 [模版方法模式](https://github.com/musejianglan/Wiki_Note/blob/master/Design_pattern/Template(模板模式).md)　

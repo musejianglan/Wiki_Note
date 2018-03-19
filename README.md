@@ -10,6 +10,9 @@ private note
 [Design pattern 设计模式](https://github.com/musejianglan/Wiki_Note/blob/master/Design_pattern/Java设计模式.md)
 ---
 
+[Android library库](https://github.com/musejianglan/Wiki_Note/blob/master/AndroidLibrary.md)
+---
+
 
 [Android-N](https://github.com/musejianglan/Wiki_Note/wiki/Android-N)<br/>
 [AS-Plugins](https://github.com/musejianglan/Wiki_Note/wiki/AS-Plugins)<br/>

@@ -5,6 +5,20 @@
 
 ## TextView
 
+### SuperTextView
+是一个功能强大的 View，可以满足日常大部分布局样式，开发者可已自行组合属性配置出属于自己风格的样式!  
+![img](https://camo.githubusercontent.com/858932c75508773ecdb50a884804841962a0ddc7/687474703a2f2f6f736e6f65783676662e626b742e636c6f7564646e2e636f6d2f737570657274657874766965772e6a7067)  
+[github](https://github.com/lygttpod/SuperTextView)
+
+### ExpandableTextView
+
+可收缩展开的 TextView  
+![img](https://github.com/Chen-Sir/ExpandableTextView/raw/master/art/sample.gif)  
+[github](https://github.com/Chen-Sir/ExpandableTextView)
+
+
+
+
 ### MyLittleCanvas
 使用这个库的原因是为了方便在 Android 上使用 canvas。除了方法，现在可以使用对象。
 

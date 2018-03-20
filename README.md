@@ -13,6 +13,12 @@ private note
 [Android library库](https://github.com/musejianglan/Wiki_Note/blob/master/AndroidLibrary.md)
 ---
 
+[AndroidFramework库：常用框架类库](https://github.com/musejianglan/Wiki_Note/blob/master/AndroidFramework.md)
+---
+
+[AndroidApp完整的项目和相关开发资料](https://github.com/musejianglan/Wiki_Note/blob/master/AndroidApp_Ebook.md)
+---
+
 
 [Android-N](https://github.com/musejianglan/Wiki_Note/wiki/Android-N)<br/>
 [AS-Plugins](https://github.com/musejianglan/Wiki_Note/wiki/AS-Plugins)<br/>

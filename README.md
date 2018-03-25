@@ -10,6 +10,9 @@ private note
 [Design pattern 设计模式](https://github.com/musejianglan/Wiki_Note/blob/master/Design_pattern/Java设计模式.md)
 ---
 
+[gradle](https://github.com/musejianglan/Wiki_Note/blob/master/gradle及打包相关/gradle.md)
+---
+
 [Android library库](https://github.com/musejianglan/Wiki_Note/blob/master/AndroidLibrary.md)
 ---
 

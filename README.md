@@ -5,7 +5,7 @@ private note
 
 ## 目录  
 
-[Kotlin](https://github.com/musejianglan/Wiki_Note/blob/master/Kotlin.md)
+[Kotlin](https://github.com/musejianglan/Wiki_Note/blob/master/Kotlin4Android/Kotlin.md)
 ---
 [Design pattern 设计模式](https://github.com/musejianglan/Wiki_Note/blob/master/Design_pattern/Java设计模式.md)
 ---

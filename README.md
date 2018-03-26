@@ -13,13 +13,13 @@ private note
 [gradle](https://github.com/musejianglan/Wiki_Note/blob/master/gradle及打包相关/gradle.md)
 ---
 
-[Android library库](https://github.com/musejianglan/Wiki_Note/blob/master/AndroidLibrary.md)
+[Android library库](https://github.com/musejianglan/Wiki_Note/blob/master/AndroidOpenSource/AndroidLibrary.md)
 ---
 
-[AndroidFramework库：常用框架类库](https://github.com/musejianglan/Wiki_Note/blob/master/AndroidFramework.md)
+[AndroidFramework库：常用框架类库](https://github.com/musejianglan/Wiki_Note/blob/master/AndroidOpenSource/AndroidFramework.md)
 ---
 
-[AndroidApp完整的项目和相关开发资料](https://github.com/musejianglan/Wiki_Note/blob/master/AndroidApp_Ebook.md)
+[AndroidApp完整的项目和相关开发资料](https://github.com/musejianglan/Wiki_Note/blob/master/AndroidOpenSource/AndroidApp_Ebook.md)
 ---
 
 

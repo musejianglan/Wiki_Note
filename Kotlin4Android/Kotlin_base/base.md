@@ -91,9 +91,31 @@ ${'$'}9.99
 """
 ```
 
-# 控制流
 
-## if表达式
+
+# 语句
+
+## in关键字的使用
+
+判断一个对象是否在某一个区间内  
+
+//判断x在[1,10]之间  
+
+`  if(x in 1..10) `    
+
+
+
+//判断想不在[1,10]之间  
+
+`if(x !in 1..10)`    
+
+//遍历集合  
+
+`for(name in names)`
+
+## 控制流
+
+### if表达式
 
 ```
 // 传统用法
@@ -125,7 +147,7 @@ val max = if (a > b) {
 ```
 > 如果你使用 if 作为表达式而不是语句（例如：返回它的值或者把它赋给变量），该表达式需要有 else 分支。
 
-## When 表达式
+### When 表达式
 
 when 取代了类 Java 语言的 switch 操作符。其最简单的形式如下：
 
@@ -188,7 +210,7 @@ when {
 }
 ```
 
-## For 循环
+### For 循环
 
 for 循环可以对任何提供迭代器（iterator）的对象进行遍历，这相当于像 C# 这样的语言中的 foreach 循环。语法如下：
 
@@ -226,7 +248,8 @@ for ((index, value) in array.withIndex()) {
 }
 ```
 
-## While 循环
+### While 循环
+
 while 和 do..while 照常使用  
 ```
 while (x > 0) {
@@ -274,7 +297,7 @@ fun foo() {
     }
     println("this point is unreachable")
 }
-```  
+```
 这个 return 表达式从最直接包围它的函数即 foo 中返回。不会打印“this point is unreachable”
 
 ```
@@ -286,7 +309,7 @@ fun foo() {
     print(" done with explicit label")
 }
 }
-```  
+```
 结束forEach循环，继续执行foo下边的方法，会打印“done with explicit label”
 
 

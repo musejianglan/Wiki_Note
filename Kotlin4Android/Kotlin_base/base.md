@@ -314,3 +314,49 @@ fun foo() {
 
 
 
+# 函数
+
+## 函数的声明
+
+函数使用`fun`声明，返回值位于参数括号之后`:Type`，如果返回值为空可以省略或者使用`:Unit`代替
+
+```kotlin
+fun functionName(param1: Int,param2: String):Unit{
+    
+}
+```
+
+如果函数只有一行表达式，可以简写：
+
+`fun add(a: Int,b: Int) = a + b`
+
+### 默认参数
+
+```kotlin
+fun say(firstName: String = "Jack"): String = firstName
+```
+
+调用的时候可以直接调用`say()`即可，会使用默认参数Jack，也可以传入参数`say("Tom")`
+
+### 变参函数
+
+在Kotlin中使用`vararg`关键字来表示变长参数
+
+```kotlin
+fun strAppend(vararg strArr: String): String{
+    for (str in strArr){
+        return ...
+    }
+}
+```
+
+### 扩展函数
+
+普通的函数名前添加被扩展的类名，为类扩展新的函数
+
+```kotlin
+fun Activity.toast(msg: CharSwquence, duration: Int = Toast.LENGTH_SHORT){
+	Toast.makeText(this,msg,dutation).show()    
+}
+```
+

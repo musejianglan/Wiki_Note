@@ -22,6 +22,14 @@ private note
 [AndroidApp完整的项目和相关开发资料](https://github.com/musejianglan/Wiki_Note/blob/master/AndroidOpenSource/AndroidApp_Ebook.md)
 ---
 
+[适配_切图_Android_iOS](https://github.com/musejianglan/Wiki_Note/blob/master/Android/适配_切图_Android_iOS.md)
+
+
+
+
+
+
+
 
 [Android-N](https://github.com/musejianglan/Wiki_Note/wiki/Android-N)<br/>
 [AS-Plugins](https://github.com/musejianglan/Wiki_Note/wiki/AS-Plugins)<br/>

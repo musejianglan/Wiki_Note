@@ -22,7 +22,7 @@ private note
 [AndroidApp完整的项目和相关开发资料](https://github.com/musejianglan/Wiki_Note/blob/master/AndroidOpenSource/AndroidApp_Ebook.md)
 ---
 
-[适配_切图_Android_iOS](https://github.com/musejianglan/Wiki_Note/blob/master/Android/适配_切图_Android_iOS.md)
+[Android Catalog](https://github.com/musejianglan/Wiki_Note/blob/master/Android/Android_Catalog.md)
 ---
 
 [代码片段](https://github.com/musejianglan/Wiki_Note/tree/master/代码片段)

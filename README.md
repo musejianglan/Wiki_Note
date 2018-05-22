@@ -4,6 +4,8 @@ private note
 [Wiki](https://github.com/musejianglan/Wiki_Note/wiki)
 
 ## 目录  
+[Python](https://github.com/musejianglan/Wiki_Note/blob/master/Python/Python_Catalog.md)
+---
 
 [Kotlin](https://github.com/musejianglan/Wiki_Note/blob/master/Kotlin4Android/Kotlin.md)
 ---

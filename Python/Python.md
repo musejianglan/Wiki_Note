@@ -7,3 +7,9 @@
 [高级特性](https://github.com/musejianglan/Wiki_Note/blob/master/Python/PythonHighFeatures.md)
 --
 
+[高阶函数](https://github.com/musejianglan/Wiki_Note/blob/master/Python/PythonHigherOrderFunction.md)
+--
+
+[面向对象](https://github.com/musejianglan/Wiki_Note/blob/master/Python/PythonOOP.md)
+--
+

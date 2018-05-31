@@ -1,6 +1,7 @@
 [基础](https://github.com/musejianglan/Wiki_Note/blob/master/Python/PythonBase.md)
 ---
-
+[常用系统函数](https://github.com/musejianglan/Wiki_Note/blob/master/Python/PythonCommonFunc.md)
+--
 [函数](https://github.com/musejianglan/Wiki_Note/blob/master/Python/PythonFunction.md)
 --
 
@@ -13,3 +14,6 @@
 [面向对象](https://github.com/musejianglan/Wiki_Note/blob/master/Python/PythonOOP.md)
 --
 
+
+[IO](https://github.com/musejianglan/Wiki_Note/blob/master/Python/PythonIO.md)
+--

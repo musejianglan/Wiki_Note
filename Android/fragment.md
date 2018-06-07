@@ -52,3 +52,21 @@
 在使用viewpager的时候，viewpager内部有个提前缓存的机制(默认是提前缓存一页)，比如你在看第一个Fragment的时候，隔壁的Fragment已经创建好了，但此时的状态却是不可见的。 
 但是这时候Fragment不会去调用上面说的onhiddenchanged方法，只会调用setUserVisibleHint这个方法。
 
+### dialogFragment.show() 崩溃问题
+
+可以看到是因为调用了DialogFragment.show()，最终导致了IllegalStateException。
+
+> IllegalStateException : Can not perform this action after onSaveInstanceSate
+
+
+
+解决：不使用commit() 方法，使用commitAllowingStateLoss()
+
+```
+FragmentManager fm = getSupportFragmentManager();
+FragmentTransaction ft = fm.beginTransaction();
+ft.add(dialogfragment, "DynamicInfoDialog");
+ft.commitAllowingStateLoss();
+
+```
+

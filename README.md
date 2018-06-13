@@ -30,6 +30,9 @@ private note
 [代码片段](https://github.com/musejianglan/Wiki_Note/tree/master/代码片段)
 ---
 
+[小程序](https://github.com/musejianglan/Wiki_Note/tree/master/小程序)
+---
+
 
 [正则表达式](https://github.com/musejianglan/Wiki_Note/blob/master/other/regex.md)
 

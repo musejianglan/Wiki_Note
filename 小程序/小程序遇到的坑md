@@ -1,0 +1,6 @@
+### 一、在使用滚动视图scroll-view、横向滚动（scroll-x）时：
+
+　　1、要加点样式才生效：white-space:nowrap。
+
+　　2、不能设置display:flex,用display:inline-blcok排列里面的内容就可以了，（用flex的话，苹果机没问题，安卓机会失效导致页面被撑开）。
+

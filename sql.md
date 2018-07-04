@@ -1,8 +1,33 @@
-##  CREATE 创建
-### CREATE DATABASE my_db 创建数据库
+# SQL DML 和 DDL
+可以把 SQL 分为两个部分：数据操作语言 (DML) 和 数据定义语言 (DDL)。
+SQL (结构化查询语言)是用于执行查询的语法。但是 SQL 语言也包含用于更新、插入和删除记录的语法。
+
+查询和更新指令构成了 SQL 的 DML 部分：
+* SELECT - 从数据库表中获取数据
+* UPDATE - 更新数据库表中的数据
+* DELETE - 从数据库表中删除数据
+* INSERT INTO - 向数据库表中插入数据
+
+SQL 的数据定义语言 (DDL) 部分使我们有能力创建或删除表格。我们也可以定义索引（键），规定表之间的链接，以及施加表间的约束。
+SQL 中最重要的 DDL 语句:
+* CREATE DATABASE - 创建新数据库
+* ALTER DATABASE - 修改数据库
+* CREATE TABLE - 创建新表
+* ALTER TABLE - 变更（改变）数据库表
+* DROP TABLE - 删除表
+* CREATE INDEX - 创建索引（搜索键）
+* DROP INDEX - 删除索引
+
+# DDL 数据定义语言
+
+##  CREATE DATABASE - 创建新数据库
+> CREATE DATABASE my_db 创建数据库
 > CREATE DATABASE database_name
 
-### CREATE TABLE 语句
+## ALTER DATABASE - 修改数据库
+
+
+## CREATE TABLE - 创建新表
 > CREATE TABLE 表名称
   (
   列名称1 数据类型,
@@ -11,13 +36,13 @@
   ....
   )
 
-  数据类型  |  描述
-  --------- | -------------
-  integer(size) int(size) smallint(size) tinyint(size)| 仅容纳整数。在括号内规定数字的最大位数。
-  decimal(size,d) numeric(size,d) | 容纳带有小数的数字。 "size" 规定数字的最大位数。"d" 规定小数点右侧的最大位数。
-  char(size)|容纳固定长度的字符串（可容纳字母、数字以及特殊字符）。在括号中规定字符串的长度。
-   varchar(size)| 容纳可变长度的字符串（可容纳字母、数字以及特殊的字符）。在括号中规定字符串的最大长度。
-  date(yyyymmdd) | 容纳日期
+数据类型  |  描述
+--------- | -------
+integer(size) int(size) smallint(size) tinyint(size)| 仅容纳整数。在括号内规定数字的最大位数。
+decimal(size,d) numeric(size,d) | 容纳带有小数的数字。 "size" 规定数字的最大位数。"d" 规定小数点右侧的最大位数。
+char(size)|容纳固定长度的字符串（可容纳字母、数字以及特殊字符）。在括号中规定字符串的长度。
+varchar(size)| 容纳可变长度的字符串（可容纳字母、数字以及特殊的字符）。在括号中规定字符串的最大长度。
+date(yyyymmdd) | 容纳日期
 
 ### 约束
 - NOT NULL 约束强制列不接受 NULL 值。NOT NULL 约束强制字段始终包含值。这意味着，如果不向字段添加值，就无法插入新记录或者更新记录。
@@ -25,9 +50,35 @@
 - FOREIGN KEY
 - DEFAULT 用于向列中插入默认值。如果没有规定其他的值，那么会将默认值添加到所有的新记录。
 
+## ALTER TABLE - 变更（改变）数据库表
+> ALTER TABLE 语句用于在已有的表中添加、修改或删除列。
+- 添加列:              ALTER TABLE table_name ADD column_name datatype
+- 删除表中的列：        ALTER TABLE table_name DROP COLUMN column_name。注释：某些数据库系统不允许这种在数据库表中删除列的方式 (DROP COLUMN column_name)。
+- 改变表中列的数据类型：ALTER TABLE table_name ALTER COLUMN column_name datatype
+
+##  DROP TABLE - 删除表
+
+`DROP TABLE 表名称`
+
+删除表格中的数据 `TRUNCATE TABLE 表名称`
+
+## DROP DATABASE 数据库名称
+
+`DROP DATABASE 数据库名称`
+
+## CREATE INDEX - 创建索引（搜索键）
+
+## DROP INDEX - 删除索引
+
+
+
+# DML 数据操作语select言
+
+
 ## INSERT INTO 增
 > INSERT INTO 表名称 VALUES (值1, 值2,....)
 INSERT INTO table_name (列1, 列2,...) VALUES (值1, 值2,....) 指定所要插入数据的列
+
 ```
 INSERT INTO Persons VALUES ('Gates', 'Bill', 'Xuanwumen 10', 'Beijing')
 INSERT INTO Persons (LastName, Address) VALUES ('Wilson', 'Champs-Elysees')
@@ -46,16 +97,8 @@ DELETE FROM table_name 或 DELETE * FROM table_name
 UPDATE Person SET Address = 'Zhongshan 23', City = 'Nanjing' WHERE LastName = 'Wilson'
 ```
 
-## ALTER TABLE
-> ALTER TABLE 语句用于在已有的表中添加、修改或删除列。
-- 添加列:              ALTER TABLE table_name ADD column_name datatype
-- 删除表中的列：        ALTER TABLE table_name DROP COLUMN column_name。注释：某些数据库系统不允许这种在数据库表中删除列的方式 (DROP COLUMN column_name)。
-- 改变表中列的数据类型：ALTER TABLE table_name ALTER COLUMN column_name datatype
+## select 查询
 
-
-## 查询
-
-### select
 ```
 select 列名称(*) from 表名称
 ```
@@ -89,18 +132,25 @@ SQL 使用单引号来环绕文本值（大部分数据库系统也接受双引�
 
 ### order by 用于对结果集进行排序。
 > ORDER BY 语句用于根据指定的列对结果集进行排序。
-ORDER BY 语句默认按照升序对记录进行排序。
-如果您希望按照降序对记录进行排序，可以使用 DESC 关键字。
-ASC 升序
-DESC 降序
+> ORDER BY 语句默认按照升序对记录进行排序。
+>
+> ```
+> ORDER BY 列名 DESC, 列名 ASC
+> ```
+>
+> 如果您希望按照降序对记录进行排序，可以使用 DESC 关键字。
+> ASC 升序
+> DESC 降序
 
-#### 左连接 LEFT JOIN
-```
-select CustArchiveValueOld.id,CustArchiveValueOld.value from CustArchiveValueOld  LEFT JOIN ArchiveItem ON CustArchiveValueOld.archiveItemId=ArchiveItem.id
-where CustArchiveValueOld.custArchiveLocalId in (18,19,20,21,22) and CustArchiveValueOld.measureDate >= '2015-12-07 15:56:35.028' and CustArchiveValueOld.measureDate <= '2016-12-07 15:56:35.028'
-and ArchiveItem.code IN('AI-00000079','AI-00000080','AI-00000081','AI-00000082')
-```
+### 左连接 LEFT JOIN
+
 > 从CustArchiveValueOld表（左连接ArchiveItem表）中查询id 和 value 满足条件
+
+
+
+
+
+
 
 #### COUNT() 函数返回匹配指定条件的行数。
 - SQL COUNT(column_name)
